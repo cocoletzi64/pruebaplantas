@@ -85,7 +85,7 @@ public class Flor extends Planta implements IMensaje{
 
     @Override
     public String saludar() {
-        return "Hola soy una flor  "+ nombre;
+        return "Hola soy una flor tipo  "+ nombre;
     }
 
     @Override
@@ -97,12 +97,11 @@ public class Flor extends Planta implements IMensaje{
     @Override
     public String toString() {
         return super.toString()+
-                "colordePetalo='" + colordePetalo + '\'' +
-                ", cantidadPromedodePetalos='" + cantidadPromedodePetalos + '\'' +
-                ", colordelPistilo='" + colordelPistilo + '\'' +
-                ", colordelosPetalos='" + colordelosPetalos + '\'' +
-                ", variedaddeFlor='" + variedaddeFlor + '\'' +
-                ", estacionqueFlorece='" + estacionqueFlorece + '\'' +
-                '}';
+                "Color de Petalo= " + colordePetalo + ", " +
+                "Cantidad Promedio de Petalos= " + cantidadPromedodePetalos + ", " +
+                "Color del Pistilo= " + colordelPistilo + "\n" +
+                "Color de los Petalos= " + colordelosPetalos + ", " +
+                "Variedad de Flor= " + variedaddeFlor + ", " +
+                "Estacion en que Florece= " + estacionqueFlorece;
     }
 }

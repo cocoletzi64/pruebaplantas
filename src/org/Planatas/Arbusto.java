@@ -85,10 +85,10 @@ public class Arbusto extends Planta implements IMensaje{
     @Override
     public String toString() {
         return super.toString() +
-                "anchodeArbusto='" + anchodeArbusto + '\'' +
-                ", esDomestico='" + esDomestico + '\'' +
-                ", variedaddeArbusto='" + variedaddeArbusto + '\'' +
-                ", colordeHojas='" + colordeHojas + '\'' +
-                ", sePodaONo='" + sePodaONo + '\'' ;
+                "Ancho de Arbusto= " + anchodeArbusto + ", "+
+                "Es Domestico? " + esDomestico + ", "+
+                "Variedad de Arbusto= " + variedaddeArbusto + ", " +
+                "Color de Hojas= " + colordeHojas +", " +
+                "Se poda? " + sePodaONo;
     }
 }
